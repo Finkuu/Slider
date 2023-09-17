@@ -1,0 +1,22 @@
+@import "_zero.scss";
+
+.container { max-width:  1200px; margin: 0 auto; & h1{
+    text-align: center;
+}}
+.slider { border: 3px solid #000; max-width: 80%; margin: 20px auto; overflow: hidden;
+	&__line { 
+        display: flex; 
+        
+        background: orange;
+        transition: all ease 1s ;
+    }
+
+}
+.btn { background: #e09142; border-radius: 10%; padding: 4px 10px; font-size: 24px; color: #fff;
+
+}
+.button {
+    text-align: left;
+    max-width:  80%;
+    margin: 0 auto;
+}
